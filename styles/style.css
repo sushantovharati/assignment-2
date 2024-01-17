@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+button {
+    border-radius: 8px;
+    color: #FFF;
+    background: #FF5400;
+    border: none;
+    height: 52px;
+}
+
+/* Nav Bar Style */
+.nav-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    width: 50%;
+    display: flex;
+}
+
+.title img {
+    width: 60px;
+    height: 50px;
+}
+
+.title h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.special {
+    color: #FF5400;
+}
+
+.items {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.nav-container .items a {
+    color: var(--Dark-02, #424247);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.nav-container .items .special {
+    color: #FF5400;
+}
+
+/* Nav Bar ends  */
+
+/* Banner Styles  Starts*/
+.banner {
+    max-width: 100%;
+    height: 500px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.banner .banner-text h1 {
+    font-size: 64px;
+    font-weight: 800;
+    /* margin: 0 auto; */
+}
+
+.banner .banner-text p {
+    max-width: 676px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.banner .banner-items {
+    width: 780px;
+    height: 70px;
+    /* margin: px auto; */
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    gap: 24px;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.banner .banner-items input {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    text-align: center;
+    font-size: 16px;
+}
+
+.banner .banner-items select {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+.banner .banner-items button{
+    width: 174px;
+}
+
+/* End of Header Styles */
+
