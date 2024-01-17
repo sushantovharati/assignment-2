@@ -147,11 +147,16 @@ button {
 .popular-tour {
     height: 500px;
     display: flex;
-    margin: 100px auto;
+    margin: 50px auto;
 }
 
 .popular-tour div {
     width: 50%;
+}
+
+.popular-tour .text,
+image {
+    padding: 20px;
 }
 
 .popular-tour .text h1 {
@@ -161,25 +166,67 @@ button {
     padding-bottom: 10px;
 }
 
-.popular-tour .text p, ul {
+.popular-tour .text p,
+ul {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     margin: 10px auto;
 }
-.popular-tour .text ul{
+
+.popular-tour .text ul {
     padding: 10px 50px;
 }
 
-.popular-tour .text button{
+.popular-tour .text button {
     width: 174px;
     margin: 20px auto;
     cursor: grab;
 }
 
 .popular-tour .image img {
-    width: 100%;
-    height: 500px;
-    justify-content: right;
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin-left: 50px;
+}
+
+/* Section choose-destination styles */
+
+.choose-destination {
+    text-align: center;
+}
+
+.choose-destination .text h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-destination .text p {
+    width: 643px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.choose-destination .image .row1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.choose-destination .image .row2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin: 20px auto;
+}
+
+.choose-destination .image .row3 {
+    display: flex;
+    justify-content: space-around;
 }
